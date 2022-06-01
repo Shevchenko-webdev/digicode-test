@@ -1,0 +1,31 @@
+{
+  "name": "Digicode",
+  "version": "0.0.1",
+  "description": "Test task for Digicode company",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Shevchenko Alexander <shevchenko.webdev@gmail.com>",
+  "devDependencies": {
+    "@pixi/events": "^6.3.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "4.7.2",
+    "webpack": "5.72.1",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "node-sass": "^7.0.1",
+    "pixi.js": "^6.3.2",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1"
+  }
+}

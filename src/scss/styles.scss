@@ -1,0 +1,58 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#playgroundWrapper {
+  display: inline-block;
+}
+
+.controls, .playground-info {
+  display: flex;
+  grid-gap: 20px;
+  width: 80vw;
+
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.controls .control {
+  padding: 5px;
+
+  display: flex;
+  align-content: center;
+  grid-gap: 10px;
+
+  box-shadow: 2px 2px 4px 2px #8a8a8a;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 2rem;
+
+    cursor: pointer;
+
+    &[disabled] {
+      cursor: not-allowed;
+    }
+  }
+}
+
